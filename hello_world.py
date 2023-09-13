@@ -1,6 +1,5 @@
 def print_hello():
     print("Hello World!!")
 
-if __name__ == '__main__':
-    print_hello()
-    
+P = input("이름이 뭐에요? ")
+print("당신의 이름은", P, "이군요")
